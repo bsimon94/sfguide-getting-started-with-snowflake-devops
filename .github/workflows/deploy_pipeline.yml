@@ -12,7 +12,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     env:
       REPO_NAME: "quickstart_common.public.quickstart_repo"
